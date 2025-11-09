@@ -19,6 +19,9 @@ Maybe later you could add a way to tag them or sort them
 var favorite = document.getElementsByClassName("fa-star");
 var trash = document.getElementsByClassName("fa-trash");
 
+
+// Worked to set up the favorite code with Michael Kazin
+
 Array.from(favorite).forEach(function(element) {
       element.addEventListener('click', function(){
         const favorite = this.closest('li').querySelector('.fa-star').classList.contains('fa-regular')
@@ -58,3 +61,4 @@ Array.from(trash).forEach(function(element) {
         })
       });
 });
+
