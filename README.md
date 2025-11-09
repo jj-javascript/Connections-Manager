@@ -38,7 +38,7 @@ git clone https://github.com/yourusername/Connections-Manager.git
 2. Navigate to the project directory:
 
 ```bash
-cd demo-day-draft
+cd connections-manager
 ```
 
 3. Install Dependencies:
